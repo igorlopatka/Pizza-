@@ -11,6 +11,7 @@
 		459C3EFA2C18A5FB009D7432 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459C3EF92C18A5FB009D7432 /* ContentView.swift */; };
 		459C3EFC2C18A5FC009D7432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459C3EFB2C18A5FC009D7432 /* Assets.xcassets */; };
 		459C3F002C18A5FC009D7432 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459C3EFF2C18A5FC009D7432 /* Preview Assets.xcassets */; };
+		459C3F072C18A937009D7432 /* MyPizzaClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 459C3F062C18A937009D7432 /* MyPizzaClassifier 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		459C3EFB2C18A5FC009D7432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		459C3EFD2C18A5FC009D7432 /* Pizza_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pizza_.entitlements; sourceTree = "<group>"; };
 		459C3EFF2C18A5FC009D7432 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		459C3F062C18A937009D7432 /* MyPizzaClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "MyPizzaClassifier 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				459C3EF72C18A5FB009D7432 /* Pizza_App.swift */,
 				459C3EF92C18A5FB009D7432 /* ContentView.swift */,
 				459C3EFB2C18A5FC009D7432 /* Assets.xcassets */,
+				459C3F062C18A937009D7432 /* MyPizzaClassifier 1.mlmodel */,
 				459C3EFD2C18A5FC009D7432 /* Pizza_.entitlements */,
 				459C3EFE2C18A5FC009D7432 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				459C3F072C18A937009D7432 /* MyPizzaClassifier 1.mlmodel in Sources */,
 				459C3EFA2C18A5FB009D7432 /* ContentView.swift in Sources */,
 				459C3EF82C18A5FB009D7432 /* Pizza_App.swift in Sources */,
 			);
