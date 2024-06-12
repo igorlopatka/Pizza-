@@ -12,6 +12,8 @@
 		459C3EFC2C18A5FC009D7432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459C3EFB2C18A5FC009D7432 /* Assets.xcassets */; };
 		459C3F002C18A5FC009D7432 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459C3EFF2C18A5FC009D7432 /* Preview Assets.xcassets */; };
 		459C3F072C18A937009D7432 /* MyPizzaClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 459C3F062C18A937009D7432 /* MyPizzaClassifier 1.mlmodel */; };
+		459C3F092C18CEC5009D7432 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459C3F082C18CEC5009D7432 /* CameraViewModel.swift */; };
+		459C3F0B2C19C003009D7432 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459C3F0A2C19C003009D7432 /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		459C3EFD2C18A5FC009D7432 /* Pizza_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pizza_.entitlements; sourceTree = "<group>"; };
 		459C3EFF2C18A5FC009D7432 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		459C3F062C18A937009D7432 /* MyPizzaClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "MyPizzaClassifier 1.mlmodel"; sourceTree = "<group>"; };
+		459C3F082C18CEC5009D7432 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		459C3F0A2C19C003009D7432 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				459C3EF72C18A5FB009D7432 /* Pizza_App.swift */,
 				459C3EF92C18A5FB009D7432 /* ContentView.swift */,
+				459C3F082C18CEC5009D7432 /* CameraViewModel.swift */,
+				459C3F0A2C19C003009D7432 /* CameraView.swift */,
 				459C3EFB2C18A5FC009D7432 /* Assets.xcassets */,
 				459C3F062C18A937009D7432 /* MyPizzaClassifier 1.mlmodel */,
 				459C3EFD2C18A5FC009D7432 /* Pizza_.entitlements */,
@@ -143,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				459C3F072C18A937009D7432 /* MyPizzaClassifier 1.mlmodel in Sources */,
+				459C3F092C18CEC5009D7432 /* CameraViewModel.swift in Sources */,
 				459C3EFA2C18A5FB009D7432 /* ContentView.swift in Sources */,
+				459C3F0B2C19C003009D7432 /* CameraView.swift in Sources */,
 				459C3EF82C18A5FB009D7432 /* Pizza_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +286,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"We need access to camera for pizza vision\"";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -316,6 +325,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"We need access to camera for pizza vision\"";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
