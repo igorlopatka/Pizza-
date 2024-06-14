@@ -8,10 +8,10 @@
 import SwiftUI
 import AVFoundation
 import Vision
+import Combine
 
 class CameraViewModel: NSObject, ObservableObject, AVCaptureVideoDataOutputSampleBufferDelegate {
-    
-    var captureSession: AVCaptureSession?
+    private var captureSession: AVCaptureSession?
     private var model: VNCoreMLModel?
 
     @Published var isPizza: Bool = false

@@ -6,16 +6,22 @@
 //
 
 import SwiftUI
+import RealityKit
+import ARKit
 
 struct ContentView: View {
-    
     @StateObject private var viewModel = CameraViewModel()
-    
+
     var body: some View {
         ZStack {
             CameraView(viewModel: viewModel)
                 .edgesIgnoringSafeArea(.all)
-            
+
+            if viewModel.isPizza {
+                ARPizzaView()
+                    .edgesIgnoringSafeArea(.all)
+            }
+
             VStack {
                 Spacer()
                 Text(viewModel.detectedLabel)
@@ -25,7 +31,7 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .cornerRadius(10)
                     .padding()
-                
+
                 if viewModel.isPizza {
                     Text("It's a pizza!")
                         .font(.title)
